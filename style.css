@@ -1,0 +1,464 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+ .prenav{
+    background-color:#132033 ;
+    height: 50px;
+    padding-left: 80px;
+    color: white;
+    /* padding-top: 6px; */
+    display: flex;
+    align-items: center;
+    /* float: left; */
+    width: 100%;
+    position: initial;
+ }
+ .box{
+    display: flex;
+    /* padding-right: 20px; */
+    align-items: center;
+ }
+ .box1{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+ }
+.sec2{
+    float: right;
+    margin-top: -35px;
+    padding-right: 80px;
+}
+.back{
+    background-image: url(./backpic.jpg);
+    background-size: cover;
+    background-position: center;
+   
+
+}
+
+.list ul{
+    display: flex;
+    justify-content: space-around;
+   font-size: 20px;
+   text-transform: uppercase;
+   font-family: sans-serif;
+   color: white;
+   margin-top: 40px;
+   cursor: pointer;
+   list-style: none;
+}
+
+.logo{
+    width: 30%;
+    padding-top: 25px;
+}
+
+.btn{
+    margin-left: 40px;
+    height: 40px;
+    width: 100px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(251, 159, 1);
+    border: none;
+    font-family: serif;
+    margin-top: 30px;
+   margin-left: 80px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+.btn:hover{ 
+    margin-left: 40px;
+    height: 40px;
+    width: 100px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(251, 159, 1);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-family:serif;
+    margin-top: 30px;
+   margin-left: 80px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+.list{
+    width: 50%;
+}
+.sec1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+   
+}
+.head h1{
+    color: white;
+    font-size: 80px;
+    
+    text-align: center;
+    font-family: sans-serif;
+   
+}
+.head .head_content {
+    padding: 150px 0;
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+   
+}
+.head_content .lastbtn{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(251, 159, 1);
+    border: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 30px;
+   
+}
+
+.head_content .lastbtn:hover{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(251, 159, 1);
+    background-color: white;
+    border: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 30px;
+    
+   
+}
+
+
+
+ .watch{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 388px;
+    margin: auto;
+    cursor: pointer;
+ }
+ .smallbox{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 30px;
+}
+.smallbox p{
+    color: white;
+    font-size: 25px;
+   font-family: serif;
+}
+
+
+
+.sec3{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+   
+}
+.main-sec3 {
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+    padding: 50px 0 50px 0;
+}
+
+.sec3 > div {
+    background-color: white;
+    padding: 50px 30px;
+     box-shadow: 3px 0px 31px 2px rgba(181,181,181,1); 
+    
+}
+.sec3 h3{
+    padding-top: 16px;
+    font-family: sans-serif;
+}
+.sec3 p{
+    padding-top: 14px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.sec4{
+   
+    text-align: center;
+    font-family: sans-serif;
+    padding: 50px 0 50px 0;
+    max-width: 550px;
+    
+}
+
+.sec4 p{
+    font-family: sans-serif;
+    padding-top: 20px;
+    color: rgb(139, 138, 138);
+} 
+
+
+.main-sec4{
+    background-color: rgb(241, 240, 240);
+}
+
+
+.section4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+    margin: auto;
+}
+.gridbox1{
+    background-color: white;
+    border: 1px solid orange;
+   width: 270px;
+   height: 330px;
+}
+.gridbox1 h2{
+    color: rgb(216, 141, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 35px;
+    padding-left: 35px;
+    
+}
+.gridbox1 h3{
+    color: rgb(77, 77, 77);
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-left: 35px;
+    text-transform: capitalize;
+}
+.gridbox1 p{
+   padding-top: 20px;
+   font-family: sans-serif;
+   color: #808080;
+   padding-left: 35px;
+}
+.gridbox1 button{
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color:rgb(211, 137, 0); 
+    border: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.gridbox1 button:hover{
+    width: 110px;
+    height: 40px;
+    color:rgb(211, 137, 0);
+    background-color: white;
+    border:1px solid rgb(232, 152, 4)  ;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 35px;
+    cursor: pointer;
+    font-size: 14px;
+}
+ .gridbox2{
+    background-color: white;
+    border: 1px solid orange;
+   width: 270px;
+   height: 330px;
+ }
+ .gridbox2 h2{
+    color: rgb(216, 141, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 35px;
+    padding-left: 35px;
+    
+}
+.gridbox2 h3{
+    color: rgb(77, 77, 77);
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-left: 35px;
+    text-transform: capitalize;
+}
+.gridbox2 p{
+   padding-top: 20px;
+   font-family: sans-serif;
+   color: #808080;
+   padding-left: 35px;
+}
+.gridbox2 button{
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color:rgb(211, 137, 0); 
+    border: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.gridbox2 button:hover{
+    width: 110px;
+    height: 40px;
+    color:rgb(211, 137, 0);
+    background-color: white;
+    border:1px solid rgb(232, 152, 4)  ;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 35px;
+    cursor: pointer;
+    font-size: 14px;
+  
+}
+
+.gridbox3{
+    background-color: white;
+    border: 1px solid orange;
+   width: 270px;
+   height: 330px;
+ }
+ .gridbox3 h2{
+    color: rgb(216, 141, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 35px;
+    padding-left: 35px;
+    
+}
+.gridbox3 h3{
+    color: rgb(77, 77, 77);
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-left: 35px;
+    text-transform: capitalize;
+}
+.gridbox3 p{
+   padding-top: 20px;
+   font-family: sans-serif;
+   color: #808080;
+   padding-left: 35px;
+}
+.gridbox3 button{
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color:rgb(211, 137, 0); 
+    border: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.gridbox3 button:hover{
+    width: 110px;
+    height: 40px;
+    color:rgb(211, 137, 0);
+    background-color: white;
+    border:1px solid rgb(232, 152, 4)  ;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 35px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.gridbox4{
+    background-color: white;
+    border: 1px solid orange;
+   width: 270px;
+   height: 330px;
+ }
+ .gridbox4 h2{
+    color: rgb(216, 141, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 35px;
+    padding-left: 35px;
+    
+}
+.gridbox4 h3{
+    color: rgb(77, 77, 77);
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-left: 35px;
+    text-transform: capitalize;
+}
+.gridbox4 p{
+   padding-top: 20px;
+   font-family: sans-serif;
+   color: #808080;
+   padding-left: 35px;
+}
+.gridbox4 button{
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color:rgb(211, 137, 0); 
+    border: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.gridbox1 span{
+    font-size: 17px;
+    color: black;
+}
+.gridbox4 button:hover{
+    width: 110px;
+    height: 40px;
+    color:rgb(211, 137, 0);
+    background-color: white;
+    border:1px solid rgb(232, 152, 4)  ;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 35px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+@media all and (max-width:768px) {
+    .sec3{
+        grid-template-columns: repeat(1,4fr);
+    }
+    .section4{
+        grid-template-columns: repeat(1,4fr);
+        row-gap: 30px;
+      margin-left: 55px;
+    }
+}
+
